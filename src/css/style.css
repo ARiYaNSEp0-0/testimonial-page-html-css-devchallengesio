@@ -65,7 +65,7 @@ svg {
   --fs-body-2: 1rem;
   --fs-body: 1.25rem;
   --fs-heading: 2.25rem;
-  --line-height-body: 1.8;
+  --line-height-body: 1.7;
 
   --clr-primary: #f5c044;
   --clr-secondary: #18181b;
@@ -133,11 +133,11 @@ h2 {
 }
 
 .testimonials__inner {
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .testimonials__cards__inner {
-  gap: 2.5rem;
+  gap: 2.8rem;
 }
 
 .review-card__visual {
