@@ -137,7 +137,7 @@ h2 {
 }
 
 .testimonials__cards__inner {
-  gap: 2.8rem;
+  gap: 2.5rem;
 }
 
 .review-card__visual {
@@ -174,7 +174,7 @@ section.testimonials {
 }
 
 .review-card {
-  max-width: 370px;
+  max-width: 360px;
 }
 
 @media only screen and (min-width: 1040px) {
@@ -230,9 +230,9 @@ section.testimonials {
 /* --- review card (testimonial card) --- */
 .review-card {
   background-color: var(--clr-neutral-100);
-  padding: 1.8rem 2.8rem;
-  box-shadow: 5px 5px 33px rgba(212, 212, 216, 0.233);
-  border-radius: 10px;
+  padding: 1.7rem 2.5rem;
+  box-shadow: 5px 5px 33px rgba(212, 212, 216, 0.296);
+  border-radius: 12px;
   font-size: var(--fs-body-2);
 }
 
@@ -252,7 +252,11 @@ section.testimonials {
   --spacer: 2rem;
 }
 
+.flow-content--medium {
+  --spacer: 1.5rem;
+}
+
 .flow-content--small {
-  --spacer: 0.8rem;
+  --spacer: 0.6rem;
 }
 /*  Utilities  */
