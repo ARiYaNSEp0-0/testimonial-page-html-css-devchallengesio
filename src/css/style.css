@@ -133,7 +133,7 @@ h2 {
 }
 
 .testimonials__inner {
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .testimonials__cards__inner {
@@ -174,7 +174,7 @@ section.testimonials {
 }
 
 .review-card {
-  max-width: 360px;
+  max-width: 370px;
 }
 
 @media only screen and (min-width: 1040px) {
