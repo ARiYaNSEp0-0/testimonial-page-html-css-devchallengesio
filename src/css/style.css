@@ -75,7 +75,7 @@ svg {
   --clr-neutral-600: #d4d4d8;
   --clr-neutral-900: #52525a;
 
-  --spacer: 1rem;
+  --spacer: 1.2rem;
 }
 /* CSS Variables */
 
@@ -133,11 +133,11 @@ h2 {
 }
 
 .testimonials__inner {
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .testimonials__cards__inner {
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .review-card__visual {
@@ -166,15 +166,16 @@ section.testimonials {
 }
 
 .review-card {
-  max-width: 400px;
+  max-width: 360px;
 }
-@media only screen and (min-width: 641px) {
+
+@media only screen and (min-width: 1040px) {
   .testimonials__inner {
     flex-direction: row;
   }
 
   section.testimonials {
-    padding-top: 8rem;
+    padding-top: 10rem;
   }
 }
 /* Layout */
@@ -186,22 +187,22 @@ section.testimonials {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
   background-color: var(--clr-primary);
 }
 
 .testimonials__intro-star > img {
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
 }
 /* --- emoji star at testimonials intro --- */
 
 /* --- testimonial checklist --- */
 .testimonials__checklist {
   display: grid;
-  gap: 1rem;
+  gap: .3rem;
   font-size: var(--fs-list-item);
 }
 
@@ -220,7 +221,7 @@ section.testimonials {
 /* --- review card (testimonial card) --- */
 .review-card {
   background-color: var(--clr-neutral-100);
-  padding: 2rem 3rem;
+  padding: 2rem 2.5rem;
   box-shadow: 5px 5px 33px rgba(212, 212, 216, 0.233);
   border-radius: 10px;
   font-size: var(--fs-body-2);
@@ -236,5 +237,13 @@ section.testimonials {
 /*  Utilities  */
 .flow-content > * + * {
   margin-top: var(--spacer, 1rem);
+}
+
+.flow-content--large {
+  --spacer: 2rem;
+}
+
+.flow-content--small {
+  --spacer: 0.8rem;
 }
 /*  Utilities  */
